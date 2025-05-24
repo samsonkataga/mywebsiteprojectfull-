@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_+9nia6hehwgqti$sylz9o#1#n@ygypl-q%d-oll0(b=#3_rk9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['samstore360.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 
