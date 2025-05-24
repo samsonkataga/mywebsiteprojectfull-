@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-_+9nia6hehwgqti$sylz9o#1#n@ygypl-q%d-oll0(b=#3_rk9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['samstore360.pythonanywhere.com']
+
+
 
 
 # Application definition
@@ -119,6 +121,11 @@ USE_TZ = True
 import os
 
 STATIC_URL = '/static/'
+
+# Add this line near the bottom of your settings.py
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'portfolio/static'),
